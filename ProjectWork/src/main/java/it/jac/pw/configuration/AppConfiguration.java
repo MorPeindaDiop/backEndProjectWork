@@ -21,10 +21,10 @@ public class AppConfiguration extends WebSecurityConfigurerAdapter implements We
 		registry.addMapping("/user/**").allowedMethods("GET", "POST");
 		registry.addMapping("/marche/**").allowedMethods("GET", "POST");
 		registry.addMapping("/modelli/**").allowedMethods("GET", "POST");
-//		registry.addMapping("/dettaglio/**").allowedMethods("GET", "POST");
-//		registry.addMapping("/invoice/**").allowedMethods("GET", "POST");
-//		registry.addMapping("/category/**").allowedMethods("GET", "POST");
-//		registry.addMapping("/vat/**").allowedMethods("GET", "POST");
+		registry.addMapping("/motorizzazioni/**").allowedMethods("GET", "POST");
+		registry.addMapping("/allestimento/**").allowedMethods("GET", "POST");
+		registry.addMapping("/colore/**").allowedMethods("GET", "POST");
+		registry.addMapping("/configurazione/**").allowedMethods("GET", "POST");
 //		registry.addMapping("/payment/**").allowedMethods("GET", "POST");
 	}
 

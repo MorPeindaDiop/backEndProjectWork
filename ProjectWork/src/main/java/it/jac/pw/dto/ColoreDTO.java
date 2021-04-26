@@ -14,6 +14,10 @@ public class ColoreDTO {
 	
 	private int id_Modello;
 	
+	private String src;
+	
+	private String colore;
+	
 	public static ColoreDTO build(Colore colore) {
 
 		ColoreDTO result = new ColoreDTO();

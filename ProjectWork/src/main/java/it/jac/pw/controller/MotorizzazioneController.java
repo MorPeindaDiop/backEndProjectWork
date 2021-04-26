@@ -14,7 +14,7 @@ import it.jac.pw.dto.Response;
 import it.jac.pw.entity.Motorizzazione;
 
 @RestController
-@RequestMapping("/motorizzazione")
+@RequestMapping("/motorizzazioni")
 public class MotorizzazioneController {
 	
 	private static Logger log = LoggerFactory.getLogger(MotorizzazioneController.class);

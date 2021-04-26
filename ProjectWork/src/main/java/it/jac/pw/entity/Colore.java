@@ -27,6 +27,11 @@ public class Colore {
 	@Column(name = "id_Modello")
 	private int id_Modello;
 	
+	@Column(name = "src")
+	private String src;
+	
+	@Column(name = "colore")
+	private String colore;
 	
 	@Override
 	public String toString() {

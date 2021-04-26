@@ -11,9 +11,17 @@ public class MotorizzazioneDTO {
 	
 private int id_Motorizzazione;
 	
-	private String descrizione;
 	
 	private int id_Modello;
+	
+	private String motore;
+	
+	private String alimentazione;
+	
+	private String cambio;
+	
+	private String consumo;
+	
 	
 	public static MotorizzazioneDTO build(Motorizzazione motorizzazione) {
 

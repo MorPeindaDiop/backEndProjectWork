@@ -20,15 +20,24 @@ public class Motorizzazione {
 	@Column(name = "id_Motorizzazione")
 	private int id_Motorizzazione;
 	
-	@Column(name = "descrizione")
-	private String descrizione;
-	
 	@Column(name = "id_Modello")
 	private int id_Modello;
 	
+	@Column(name = "motore")
+	private String motore;
+	
+	@Column(name = "alimentazione")
+	private String alimentazione;
+	
+	@Column(name = "cambio")
+	private String cambio;
+	
+	@Column(name = "consumo")
+	private String consumo;
+	
 	@Override
 	public String toString() {
-		return "Motorizzazione [id_Motorizzazione = " + id_Motorizzazione + ", descrizione = " + descrizione + ", id_Modello = " + id_Modello +"]";
+		return "Motorizzazione [id_Motorizzazione = " + id_Motorizzazione + ", id_Modello = " + id_Modello +"]";
 	}
 
 }

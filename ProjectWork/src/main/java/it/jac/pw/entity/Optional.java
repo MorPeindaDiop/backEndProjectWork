@@ -18,7 +18,7 @@ public class Optional {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id")
+	@Column(name = "id_Optional")
 	private int id_Optional;
 	
 	@Column(name = "descrizione")
