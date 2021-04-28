@@ -3,14 +3,13 @@ package it.jac.pw.dto;
 import org.springframework.beans.BeanUtils;
 
 import it.jac.pw.entity.Configurazione;
-
+import lombok.Data;
+@Data
 public class ConfigurazioneDTO {
 	
 	private int id_Riepilogo;
 
 	private String id_Motorizzazione;
-
-	private String id_Optional;
 
 	private String id_Colore;
 

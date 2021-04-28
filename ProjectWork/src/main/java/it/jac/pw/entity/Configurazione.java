@@ -23,9 +23,6 @@ public class Configurazione {
 	@Column(name = "id_Motorizzazione")
 	private String id_Motorizzazione;
 	
-	@Column(name = "id_Optional")
-	private String id_Optional;
-	
 	@Column(name = "id_Colore")
 	private String id_Colore;
 	
@@ -43,7 +40,7 @@ public class Configurazione {
 	
 	@Override
 	public String toString() {
-		return "Marca [id_Riepilogo = " + id_Riepilogo + ", id_Motorizzazione = " + id_Motorizzazione + " , id_Optional = " + id_Optional + 
+		return "Marca [id_Riepilogo = " + id_Riepilogo + ", id_Motorizzazione = " + id_Motorizzazione +  
 				" , id_Colore = " + id_Colore + " , id_Allestimento = " + id_Allestimento + " , id_Marca = " + id_Marca + " , id_Modello = " 
 				+ id_Modello + ", id_Utente = " + id_Utente + "+]";
 	}
